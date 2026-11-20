@@ -122,7 +122,9 @@ class StatsDragAndWindowTests {
             PinnedWindow.D1 to 1L,
             PinnedWindow.D3 to 3L,
             PinnedWindow.D14 to 14L,
-            PinnedWindow.D30 to 30L
+            PinnedWindow.D30 to 30L,
+            PinnedWindow.D60 to 60L,
+            PinnedWindow.D90 to 90L
         ).forEach { (window, days) ->
             val start = window.resolveRange().startMillis
             val expected = now - days * dayMs
@@ -143,7 +145,9 @@ class StatsDragAndWindowTests {
                 PinnedWindow.D1,
                 PinnedWindow.D3,
                 PinnedWindow.D14,
-                PinnedWindow.D30
+                PinnedWindow.D30,
+                PinnedWindow.D60,
+                PinnedWindow.D90
             ),
             entries.toList()
         )

@@ -934,6 +934,7 @@ Tamam\'a basmak bağlantı için QR kod görüntüleyecektir. QR kodu diğer tel
     <string name="range_14d">14D</string>
     <string name="range_1d">1D</string>
     <string name="range_30d">30D</string>
+    <string name="range_60d">60D</string>
     <string name="range_7d">7D</string>
     <string name="range_90d">90D</string>
     <string name="range_all">TÜMÜ</string>

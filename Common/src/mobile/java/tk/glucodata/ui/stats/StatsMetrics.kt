@@ -1188,7 +1188,9 @@ internal enum class PinnedWindow(@get:StringRes val labelResId: Int, private val
     D1(R.string.range_1d, 1),
     D3(R.string.stats_window_3d, 3),
     D14(R.string.range_14d, 14),
-    D30(R.string.range_30d, 30);
+    D30(R.string.range_30d, 30),
+    D60(R.string.range_60d, 60),
+    D90(R.string.range_90d, 90);
 
     /**
      * Open-ended at the top: pinning the end to "now" froze the chips between
